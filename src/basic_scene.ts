@@ -61,7 +61,7 @@ export function startBasicScene() {
     const loader = new THREE.FontLoader();
 
     loader.load('./fonts/optimer_bold.typeface.json', function (font) {
-        const geometry = new THREE.TextGeometry('three.js', {
+        const geometry = new THREE.TextGeometry('U Sphere', {
             font: font,
             size: 5,
             height: 1,
@@ -85,7 +85,7 @@ export function startBasicScene() {
     });
 
     loader.load('./fonts/Teko_Medium_Regular.json', function (font) {
-        const geometry = new THREE.TextGeometry('3D TEXT', {
+        const geometry = new THREE.TextGeometry('Web Development', {
             font: font,
             size: 5,
             height: 2,
